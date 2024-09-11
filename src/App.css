@@ -1,0 +1,187 @@
+#root {
+  max-width: 2280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.major {
+  background-color: rgb(158, 245, 245);
+  height: 2900px;
+  width: 100%;
+  padding: 10px;
+}
+
+.innermajor {
+  background-color: rgb(0, 65, 122);
+  border-radius: 10px;
+}
+.innermajorInside {
+  background-color: rgb(84, 139, 139);
+  padding: 10px;
+}
+.Heading {
+  padding: 10px;
+  background-color: rgb(0, 122, 122);
+  border-radius: 10px;
+}
+
+.self {
+  border: 10px solid rgb(23, 66, 66);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.PI {
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  margin-left: 10px;
+}
+.go {
+  background-color: rgb(30, 100, 100);
+}
+
+.input01 {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgb(55, 232, 232);
+  border-radius: 20px;
+  margin-right: 150px;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input00 {
+  background-color: rgb(189, 231, 191);
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgb(200, 232, 55);
+  font-family: 'Courier New', Courier, monospace;
+  color: #000;
+  border-radius: 2px;
+  margin-right: 150px;
+}
+
+.FAQs {
+  background-color: rgb(19, 37, 52);
+  border-radius: 20px;
+  border: 5px solid rgb(119, 141, 141);
+  margin: 20px;
+  
+}
+
+.insideFAQs {
+  background-color: rgb(235, 166, 16);
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.FAQQuesInput {
+  background-color: rgb(193, 196, 184);
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgb(211, 243, 55);
+  font-family: 'Courier New', Courier, monospace;
+  color: #000;
+  border-radius: 2px;
+  width: 100%;
+  height: 100px;
+  max-width: 500px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+
+.FAQQuesInput textarea {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+
+.headingEnter {
+  text-align: start;
+  text-decoration: solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+.GenerateAnswer {
+  display: flex;
+  align-items: center;
+}
+
+.suggestionHeading {
+  text-align: start;
+  text-decoration: solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+
+}
+.FAQsSuggesstionMain {
+  border: 2px solid #22c774;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 3px;
+  background-color: #a8ffbb;
+  margin: 10px 0;
+}
+
+.FAQsSuggesstions {
+  width: 100%;
+  border: 2px solid #044d20;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #dfd792;
+  text-align: start;
+}
+
+.FAQsSuggesstions h4 {
+  margin: 5px 0;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.FAQsSuggesstions h4:hover {
+  background-color: #bab374;
+  padding: 1px;
+  color: #bd4343;
+}
+
+.relatedQuestions {
+  padding: 10px;
+  color: rgb(52, 43, 112);
+  margin: 10px;
+  border: 3px solid #044d20;
+  border-radius: 17px;
+  background-color: #dfd792;
+}
+
+.relatedQuestions:hover {
+  padding: 13px;
+  color: rgb(53, 23, 247);
+  cursor: pointer;
+  margin: 10px;
+  border: 3px solid #044d20;
+  border-radius: 27px;
+  background-color: #a59f66;
+}
+
+.ChatbotIcons {
+  background-image: url('assets/chatboticon.png');
+  background-size: cover; /* Adjusts the size of the background image */
+  width: 50px; /* Set a width */
+  height: 50px; /* Set a height */
+  display: flex; /* Ensure it behaves like an inline element */
+  align-items: start;
+  justify-content: start;
+}
